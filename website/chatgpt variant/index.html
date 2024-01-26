@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar html code -->
+    <div class="navbar">
+        <img class="vector-icon" alt="" src="../asset/Vector.png" />
+        <b class="dhruv3w">Dhruv3w</b>
+        <div class="navbarbuttons">
+            <div class="about3" id="aboutText2">About</div>
+            <div class="skills3" id="skillsText2">Skills</div>
+            <b class="contact5">Contact</b>
+            <div class="projects2" id="projectsText2">Projects</div>
+            <div class="resume2">Resume</div>
+        </div>
+    </div>
+    <div class="landingcontent">
+        <!-- title html code -->
+        <div class="title">
+            <span class="title-txt">
+                <p class="in-my-design-arsenal-innovati">Boosting brand appeal</p>
+                <p class="in-my-design-arsenal-innovati">
+                    <span>with top-notch </span>
+                    <span class="user-experiences">user experiences.</span>
+                </p>
+            </span>
+        </div>
+
+        <!-- subtitle -->
+        <div class="hi-i-am">
+            Hi! I am Dhruv, a Digital Experience Designer based in Toronto, Canada.
+        </div>
+
+        <!-- buttons component -->
+        <div class="buttons">
+            <div class="buttons-child"></div>
+            <div class="buttons-item" id="rectangle10"></div>
+            <div class="contact4">Contact</div>
+            <div class="resume1">Resume</div>
+        </div>
+
+        <!-- about section code  -->
+        <div class="about1" data-scroll-to="aboutContainer">
+            <div class="about-child"></div>
+            <div class="about-item"></div>
+            <div class="about-inner"></div>
+            <div class="welcome-to-my-container">
+                <span class="title-txt">
+                    <p class="in-my-design-arsenal-innovati">
+                        <b>Welcome to my creative corner! I'm Dhruv, a passionate User Experience Designer with a
+                            penchant for crafting digital experiences that not only meet user expectations but exceed
+                            them.</b>
+                    </p>
+                    <p class="blank-line">&nbsp;</p>
+                    <p class="in-my-design-arsenal-innovati">
+                        <span class="figma">My venture into the digital design space commenced in 2018, where I
+                            immersed myself in the creation of</span>
+                        <span class="youtube-videos-and">YouTube videos and captivating thumbnails</span>
+                        <span>, both for personal endeavors and collaborations with fellow content creators. This marked
+                            the inception of a journey that has seen me excel in</span>
+                        <span class="youtube-videos-and">video production and photo manipulation.</span>
+                    </p>
+                    <p class="in-my-design-arsenal-innovati">&nbsp;</p>
+                    <p class="in-my-design-arsenal-innovati">
+                        <span>Since those formative years, my dedication to continuous learning has been unyielding. Each
+                            day is an opportunity to acquire new skills and elevate my proficiency in the digital domain.
+                            Beyond the traditional boundaries of design, I have actively delved into the</span>
+                        <span class="youtube-videos-and">development side of projects, transforming my design concepts into
+                            tangible, functional realities.</span>
+                    </p>
+                    <p class="in-my-design-arsenal-innovati">&nbsp;</p>
+                    <p class="in-my-design-arsenal-innovati">
+                        <span class="figma">Collaboration is at the heart of my work ethic. With a proven track record of
+                            successfully working with cross-functional teams of</span>
+                        <span class="youtube-videos-and">5 front-end developers</span>
+                        <span>, I believe in the power of synergy. By fostering effective communication and creating an
+                            environment where ideas flow freely, I've played a pivotal role in</span>
+                        <span class="youtube-videos-and">bringing digital projects to life.</span>
+                    </p>
+                </span>
+            </div>
+        </div>
+        <script>
+            var aboutContainer = document.querySelector(".aboutContainer");
+            var aboutButton = document.querySelector(".about1");
+
+            aboutButton.addEventListener("click", function () {
+                aboutContainer.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                    inline: "nearest",
+                });
+            });
+        </script>
+    </div>
+
+    <div class="skills1" data-scroll-to="skillsContainer">
+        <div class="about-child" id="rectangle3"></div>
+        <div class="about-item" id="rectangle4"></div>
+        <div class="about-inner" id="rectangle5"></div>
+        <div class="top-skills1">Top Skills</div>
+        <div class="front-end-development2">Front-end Development</div>
+        <div class="ui-ux-design3">UI/UX Design</div>
+        <div class="video-editing3">Video Editing</div>
+        <div class="collaboration3">Collaboration</div>
+        <div class="communication2">Communication</div>
+        <div class="front-end-development1" id="rectangle7"></div>
+        <div class="ui-ux-design2" id="rectangle8"></div>
+        <div class="video-editing1" id="rectangle9"></div>
+        <div class="collaboration1" id="rectangle6"></div>
+        <div class="communication1" id="rectangle11"></div>
+    </div>
+    <script>
+        var skillsContainer = document.querySelector(".skillsContainer");
+        var skillsButton = document.querySelector(".skills1");
+
+        skillsButton.addEventListener("click", function () {
+            skillsContainer.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+                inline: "nearest",
+            });
+        });
+    </script>
+
+    <div class="contact3" data-scroll-to="contactContainer">
+        <div class="about-child" id="rectangle12"></div>
+        <div class="about-item" id="rectangle13"></div>
+        <div class="about-inner" id="rectangle14"></div>
+        <div class="contact2">Contact</div>
+        <div class="social-media1">Social Media</div>
+        <div class="email1">Email</div>
+        <div class="social-media2" id="rectangle15"></div>
+        <div class="email2" id="rectangle16"></div>
+    </div>
+    <script>
+        var contactContainer = document.querySelector(".contactContainer");
+        var contactButton = document.querySelector(".contact3");
+
+        contactButton.addEventListener("click", function () {
+            contactContainer.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+                inline: "nearest",
+            });
+        });
+    </script>
+
+    <div class="projects1" data-scroll-to="projectsContainer">
+        <div class="about-child"></div>
+        <div class="about-item"></div>
+        <div class="about-inner"></div>
+        <div class="projects2">Projects</div>
+        <div class="project-cards1"></div>
+        <div class="project-cards2"></div>
+        <div class="project-cards3"></div>
+    </div>
+    <script>
+        var projectsContainer = document.querySelector(".projectsContainer");
+        var projectsButton = document.querySelector(".projects1");
+
+        projectsButton.addEventListener("click", function () {
+            projectsContainer.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+                inline: "nearest",
+            });
+        });
+    </script>
+
+    <div class="resume3" id="resumeContainer" data-scroll-to="resumeContainer">
+        <div class="about-child"></div>
+        <div class="about-item"></div>
+        <div class="about-inner"></div>
+        <div class="resume1">Resume</div>
+        <div class="resume2">Download Resume</div>
+    </div>
+    <script>
+        var resumeContainer = document.querySelector(".resumeContainer");
+        var resumeButton = document.querySelector(".resume3");
+
+        resumeButton.addEventListener("click", function () {
+            resumeContainer.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+                inline: "nearest",
+            });
+        });
+    </script>
+
+    <div class="footer">
+        <div class="footer-item"></div>
+        <div class="footer-item"></div>
+        <div class="footer-item"></div>
+        <div class="footer-item"></div>
+        <div class="footer-item"></div>
+        <img class="iconbehance" alt="" src="../asset/iconbehance@2x.png" />
+        <img class="iconinstagram" alt="" src="../asset/iconinstagram@2x.png" />
+    </div>
+</body>
+
+</html>
